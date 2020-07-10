@@ -1,0 +1,67 @@
+
+
+ 
+
+.header{
+    background-color:cyan;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+.menu{
+border:solid cyan;
+    margin-right:50px ;
+
+
+
+
+}
+.menu a {
+margin-left: 100px;
+
+
+}
+
+
+a:link{color:cyan}
+
+a:visited{color:cyan}
+
+
+
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+  }
